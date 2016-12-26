@@ -1,0 +1,15 @@
+{
+  "name": "tenmins-auto",
+  "version": "1.0.0",
+  "description": "tenmins-auto",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./build/test.js"
+  },
+  "author": "allen wong",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "gulp": "^3.9.1"
+  }
+}

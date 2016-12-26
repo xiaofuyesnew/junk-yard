@@ -1,2 +1,3 @@
-# junk-yard
-crap thing
+# 入门:十分钟自动化构建
+
+使用gulp
