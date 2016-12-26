@@ -6,4 +6,6 @@
 npm install gulp browser-sync --save-dev
 
 npm install gulp-sass gulp-swig --save-dev
+
+npm install rimraf --save-dev
 ```
