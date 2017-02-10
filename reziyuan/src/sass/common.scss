@@ -1,0 +1,179 @@
+html, 
+body {
+    color: #666;
+    font-family: 'Microsoft Yahei', sans-serif;
+    font-size: 14px;
+}
+
+//公共样式
+@mixin z-fl {
+    float: left;
+}
+.z-fl {
+    @include z-fl;
+}
+.z-fr {
+    float: right;
+}
+
+.z-cf:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.z-show {
+    display: block;
+}
+
+.z-hide {
+    display: none;
+}
+
+.z-select {
+    background-color: #b31a1b;
+}
+
+//公共框架
+.g-hd {
+    .cm-tp {
+        height: 40px;
+        background-color: #700005;
+    }
+    .cm-bt {
+        height: 80px;
+        background-color: #8f000b;
+    }
+}
+
+.g-ma {
+    min-height: 600px;
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+
+.g-ft {
+    border-top: solid 1px #ccc;
+}
+
+//公共模块
+.cm-wp {
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.cm-logo {
+    * {
+        @include z-fl;
+        display: block;
+    }
+    img {
+        width: 45px;
+        height: 50px;
+        padding-top: 15px;
+    }
+    span {
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+        padding-top: 25px;
+        padding-left: 10px;
+    }
+}
+
+.cm-nav {
+    ul li {
+        @include z-fl;
+        list-style: none;
+        padding-left: 5px;
+    }
+    a {
+        width: 120px;
+        height: 80px;
+        display: block;
+        font-size: 17px;
+        color: #fff;
+        font-weight: bold;
+        line-height: 80px;
+        text-align: center;
+    }
+    a:hover {
+        background-color: #b31a1b;
+    }
+}
+
+@mixin ft {
+    width: 1000px;
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cm-contact {
+    @include ft;
+    font-size: 16px;
+    padding: 30px 0;
+    span {
+        padding-left: 15px;
+    }
+    .second {
+        padding-left: 80px;
+    }
+}
+
+.cm-list {
+    @include ft;
+    font-size: 16px;
+    padding-bottom: 30px;
+    a {
+        padding: 0 25px;
+    }
+    a:hover {
+        color: #8f000b;
+    }
+}
+
+.cm-copy_right {
+    @include ft;
+    flex-direction: column;
+    p {
+        padding-bottom: 20px;
+    }
+}
+
+
+
+/*向上滚动的独立模块*/
+.cm-roll {
+    height: 40px;
+    overflow: hidden;
+    ul {
+        position: relative;
+    }
+    li {
+        font-size: 15px;
+        color: #fff;
+        height: 40px;
+        line-height: 40px;
+        max-width: 500px;
+    }
+}
+
+/*图片展播的独立模块*/
+.cm-imgshow {
+    height: 270px;
+    width: 100%;
+    ul {
+        position: relative;
+    }
+    ul li {
+        position: absolute;
+    }
+}
