@@ -4,3 +4,15 @@
 .m-box {
     height: 20px;
 }
+
+/*图片展播的独立模块*/
+.m-imgshow {
+    height: 270px;
+    width: 100%;
+    ul {
+        position: relative;
+    }
+    ul li {
+        position: absolute;
+    }
+}

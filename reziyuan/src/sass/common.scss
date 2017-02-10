@@ -165,15 +165,3 @@ body {
         max-width: 500px;
     }
 }
-
-/*图片展播的独立模块*/
-.cm-imgshow {
-    height: 270px;
-    width: 100%;
-    ul {
-        position: relative;
-    }
-    ul li {
-        position: absolute;
-    }
-}
