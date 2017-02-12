@@ -69,20 +69,13 @@ $(function () {
     }
     
     /**配置对象config */
-    var config = {
+    var configLR = {
         nodeName: ".cm-roll"//节点名称
     }
     /**实例化 */
-    var listRoll = new ListRoll(config)
+    var listRoll = new ListRoll(configLR)
     /**重复执行 */
     window.setInterval(function () { listRoll.roll() }, 5000)
 
     /**--------------------------------------------------------------------------- */
-    
-
-    /**--------------------------------------------------------------------------
-     * 效果二：图片展播，带导航点
-     * 
-     * 说明：
-     */
 })
