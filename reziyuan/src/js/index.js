@@ -15,8 +15,26 @@ $(function () {
     /**构造函数 */
     function ImgChange (config) {
         this.divName = config.nodeName
+        this.spotsName = config.spotsName
+        this.ulName = config.nodeName + " ul"
+        this.liName = config.nodeName + " li"
+        this.length = $(this.liName).length
         this.chage = function (now, next) {
 
+        }
+        this.spots = function () {
+            for (var i = 0; i < this.length; i++) {
+                $(this.spotsName).append('<i></i>')
+            }
+        }
+        this.spotsChange = function () {
+            
+        }
+        this.nowItem = function () {
+            return 
+        }
+        this.nextItem = function () {
+            return
         }
     }
 
@@ -30,7 +48,7 @@ $(function () {
     var imgChange = new ImgChange(configIC)
 
     /**执行程序 */
-    
+
 
     /**------------------------------------------------------------------------ */
 
