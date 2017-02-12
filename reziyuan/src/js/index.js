@@ -48,7 +48,7 @@ $(function () {
     var imgChange = new ImgChange(configIC)
 
     /**执行程序 */
-
+    imgChange.spots()
 
     /**------------------------------------------------------------------------ */
 
