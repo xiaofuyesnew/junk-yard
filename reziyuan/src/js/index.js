@@ -19,8 +19,8 @@ $(function () {
         this.ulName = config.nodeName + " ul"
         this.liName = config.nodeName + " li"
         this.length = $(this.liName).length
-        this.chage = function (now, next) {
-
+        this.chage = function () {
+            
         }
         this.spots = function () {
             for (var i = 0; i < this.length; i++) {
@@ -31,7 +31,11 @@ $(function () {
             
         }
         this.nowItem = function () {
-            return 
+            for (var i = 0; i < this.length; i++) {
+                if ($($(this.liName)[i]).css("opacity") === '1') {
+                    return $($(this.liName)[i])
+                }
+            }
         }
         this.nextItem = function () {
             return
