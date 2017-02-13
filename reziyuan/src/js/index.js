@@ -22,12 +22,12 @@ $(function () {
         this.chage = function () {
             for (var i = 0; i < this.length; i++) {
                 if ($($(this.liName)[i]).css("opacity") === '1') {
-                    $($(this.liName)[i]).animate({ opacity: "0" }, 1000)
+                    $($(this.liName)[i]).animate({ opacity: "0" })
                     if (i === this.length - 1) {
-                        $($(this.liName)[0]).animate({ opacity: "1" }, 1000)
+                        $($(this.liName)[0]).animate({ opacity: "1" })
                         this.spotsChange(0)
                     } else {
-                        $($(this.liName)[i + 1]).animate({ opacity: "1" }, 1000)
+                        $($(this.liName)[i + 1]).animate({ opacity: "1" })
                         this.spotsChange(i + 1)
                     }
                 }
@@ -80,9 +80,27 @@ $(function () {
     runImgChange()
     /**------------------------------------------------------------------------ */
 
-    /**-----------------------------------------------------------
+    /**--------------------------------------------------------------------------
      * 效果三：走马灯
      * 
      * 说明：
      */
+
+    /**构造函数 */
+    function Rotate(config) {
+
+    }
+
+    /**配置参数 */
+    var configRT = {
+        divName: ""
+    }
+
+
+    /**实例化走马灯 */
+    var rotate = new Rotate(configRT)
+
+
+
+    /**------------------------------------------------------------------------- */
 })
