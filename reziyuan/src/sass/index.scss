@@ -12,7 +12,9 @@
     position: relative;
     li {
         position: absolute;
-        opacity: 0;
+        ~ li {
+            opacity: 0;
+        }
     }
     .u-spots {
         width: 100%;
@@ -29,10 +31,7 @@
             border: solid 1px #fff;
             border-radius: 50%;
             background-color: #ccc;
-        }
-        i:hover {
             cursor: pointer;
-            background-color: #8f000b;
         }
     }
 }

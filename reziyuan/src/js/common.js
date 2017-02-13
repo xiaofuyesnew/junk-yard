@@ -75,7 +75,7 @@ $(function () {
     /**实例化 */
     var listRoll = new ListRoll(configLR)
     /**重复执行 */
-    window.setInterval(function () { listRoll.roll() }, 5000)
+    var roll = self.setInterval(function () { listRoll.roll() }, 5000)
 
     /**--------------------------------------------------------------------------- */
 })
