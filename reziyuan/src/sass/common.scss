@@ -9,11 +9,16 @@ body {
 @mixin z-fl {
     float: left;
 }
+
+@mixin z-fr {
+    float: right;
+}
+
 .z-fl {
     @include z-fl;
 }
 .z-fr {
-    float: right;
+    @include z-fr;
 }
 
 .z-cf:after {
@@ -34,6 +39,10 @@ body {
 
 .z-select {
     background-color: #b31a1b;
+}
+
+.z-part_bg {
+    background-color: #f4f4f4;
 }
 
 //公共框架
@@ -148,6 +157,25 @@ body {
     }
 }
 
+
+/*公共元件*/
+.cu-more {
+    @include z-fr;
+    color: #8f000b;
+    padding-top: 3px;
+    &:hover {
+        color: #666;
+    }
+    &:before {
+        @include z-fl;
+        content: "";
+        display: block;
+        width: 18px;
+        height: 18px;
+        padding-right: 5px;
+        background: url(../img/index/more.png) no-repeat
+    }
+}
 
 
 /*向上滚动的独立模块*/
