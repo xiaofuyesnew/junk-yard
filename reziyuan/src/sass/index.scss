@@ -81,6 +81,102 @@
     }
 }
 
+
+.m-bbox {
+    width: 1000px;
+    margin: 0 auto;
+    height: 420px;
+    .u-bbhd {
+        padding-top: 25px;
+        padding-right: 10px;
+        .u-title {
+            height: 30px;
+            font-size: 18px;
+            padding: 0 10px;
+            border-bottom: solid 2px #8c0000;
+        }
+    }
+}
+
+.m-gbox {
+    padding-top: 25px;
+    width: 380px;
+    ul {
+        padding: 25px 10px 0;
+        li {
+            padding-bottom: 6px;
+            .u-unit {
+                border: solid 1px #c9c9c9;
+                width: 358px;
+                height: 85px;
+                background-color: #f4f4f4;
+                img {
+                    @include z-fl;
+                    display: block;
+                    width: 195px;
+                    height: 85px;
+                }
+                p {
+                    @include z-fl;
+                    width:140px;
+                    padding: 15px 0 0 20px;
+                    color: #333;
+                    ~ p {
+                        color: #666;
+                        &:before {
+                            content: url(../img/index/download.png);
+                            padding-right: 5px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+.m-sbox {
+    padding-top: 25px;
+    width: 580px;
+    .u-caselist {
+        padding: 25px 10px 0;
+        li {
+            background: url(../img/index/type-2.png) no-repeat;
+            height: 35px;
+            .u-type {
+                @include z-fl;
+                padding-top: 2px;
+                width: 40px;
+                font-size: 12px;
+                color: #8c0000;
+                text-align: center;
+                padding-right: 16px;
+            }
+            a {
+                @include z-fl;
+                display: block;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                padding-top: 1px;
+                width: 380px;
+                &:hover {
+                    color: #8c0000;
+                }
+            }
+            .u-from {
+                @include z-fr;
+                font-size: 12px;
+                padding-top: 2px;
+                max-width: 85px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+        }
+    }
+}
+
 .z-hot {
     padding-top: 20px;
 }
