@@ -4,7 +4,6 @@
  * 
  */
 
-
 $(function () {
     /**--------------------------------------------------------------------------
      * 效果二：图片展播，带导航点
@@ -88,18 +87,48 @@ $(function () {
 
     /**构造函数 */
     function Rotate(config) {
-
+        this.divName = config.divName
+        this.arrLeft = this.divName + ' ' + config.arrLeft
+        this.arrRight = this.divName + ' ' + config.arrRight
+        this.center = this.divName + ' ' + config.center
+        this.ulName = this.center + ' ul'
+        this.liName = this.center + ' li'
+        this.length = $(this.liName).length
+        this.numTol = [1, 2, 3, 4, 5]
+        this.layer_1 = 1
+        this.layer_2 = [2, this.numTol[(this.numTol.length - 1)]]
+        this.layer_3 = [3, this.numTol[(this.numTol.length - 2)]]
+        this.init = function () {
+            if (this.length < 5) {
+                //补足空位
+                for (var i = 0; i < 5 - this.length; i++) {
+                    $(this.ulName).append('<li><img src="img/index/covers/default.png"><p>暂无电子杂志</p></li>')
+                }
+            } else {
+                //装载数据
+                if (this.length !== 5) {
+                    for (var i = 0; i < this.length - 5; i++)
+                    this.numTol.push(i + 6)
+                }
+            }
+            console.log(this.numTol)
+        }
     }
 
     /**配置参数 */
     var configRT = {
-        divName: ""
+        divName: ".m-rotate",
+        arrLeft: ".u-left",
+        arrRight: ".u-right",
+        center: ".u-center"
     }
 
 
     /**实例化走马灯 */
     var rotate = new Rotate(configRT)
 
+    /**运行 */
+    rotate.init()
 
 
     /**------------------------------------------------------------------------- */
