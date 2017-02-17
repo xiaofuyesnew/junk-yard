@@ -252,10 +252,15 @@
             height: 192px;
             z-index: 1;
             line-height: 30px;
+            -moz-user-select: none;
+            -webkit-user-select:none;
+            -ms-user-select:none;
+            user-select:none;
             img {
                 display: block;
                 width: 100%;
                 height: auto;
+                
             }
             p {
                 text-align: center;
