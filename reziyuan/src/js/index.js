@@ -44,11 +44,11 @@ $(function () {
             for (var i = 0; i < this.length; i++) {
                 $(this.spotsName).append('<i id="i' + i + '"></i>')
             }
-            $($(this.spotsName + ' i')[0]).css({ backgroundColor: "#8f000b" })
+            $($(this.spotsName + ' i')[0]).css({ backgroundColor: "#fff" })
         }
         this.spotsChange = function (i) {
-            $(this.spotsName + ' i').css({ backgroundColor: "#ccc" })
-            $($(this.spotsName + ' i')[i]).css({ backgroundColor: "#8f000b" })
+            $(this.spotsName + ' i').css({ background: "none" })
+            $($(this.spotsName + ' i')[i]).css({ backgroundColor: "#fff" })
         }
     }
 
@@ -67,8 +67,8 @@ $(function () {
         var change = self.setInterval(function () { imgChange.chage() }, 6000)
         $(imgChange.spotsName + ' i').mouseenter(function () {
             change = window.clearInterval(change)
-            $(imgChange.spotsName + ' i').css({ backgroundColor: "#ccc" })
-            $(this).css({ backgroundColor: "#8f000b" })
+            $(imgChange.spotsName + ' i').css({ background: "none" })
+            $(this).css({ backgroundColor: "#fff" })
             imgChange.mouseChange(Number($(this).attr('id').substring(1)))
         })
         $(imgChange.spotsName + ' i').mouseout(function () {
