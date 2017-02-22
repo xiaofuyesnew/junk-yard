@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ebook-demo</title>
+    <script>
+    var calbak = function () {
+        console.log('this callback')
+    }
+    
+    var zhege = function (a, calbak) {
+        setTimeout(function () {
+            console.log(a)
+        },500)
+        console.log(calbak)
+    }
+
+    zhege('zhege', calbak())
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
