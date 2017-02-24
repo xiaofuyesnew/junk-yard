@@ -44,15 +44,22 @@ gulp.task('sass:dev', () => {
 
 /** copy js file from src to build */
 gulp.task('js:dev', () => {
-    return gulp.src('./src/js/*.js')
+    return gulp.src('./src/js/**/*.js')
     .pipe(gulp.dest('./dist/js'))
+    .pipe(reload({ stream: true }))
+})
+
+/** copy css file from src to build */
+gulp.task('css:dev', () => {
+    return gulp.src('./src/css/**/*.css')
+    .pipe(gulp.dest('./dist/css'))
     .pipe(reload({ stream: true }))
 })
 
 /**============ develop command(end) =================================*/
 
 /** final command for development */
-gulp.task('dev', ['html:dev', 'sass:dev', 'js:dev'], () => {
+gulp.task('dev', ['html:dev', 'sass:dev', 'js:dev', 'css:dev'], () => {
     // browser-sync will start in a browser automatically
     browserSync.init({
         server: {
@@ -63,5 +70,6 @@ gulp.task('dev', ['html:dev', 'sass:dev', 'js:dev'], () => {
     // gulp would watch src files changes
     gulp.watch('./src/html/*.html', ['html:dev'])
     gulp.watch('./src/sass/*.scss', ['sass:dev'])
-    gulp.watch('./src/js/*.js', ['js:dev'])
+    gulp.watch('./src/js/**/*.js', ['js:dev'])
+    gulp.watch('./src/css/**/*.css', ['css:dev'])
 })
