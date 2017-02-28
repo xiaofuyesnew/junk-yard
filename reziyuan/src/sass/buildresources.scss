@@ -4,3 +4,66 @@
 .g-ma {
     padding: 40px 0 65px;
 }
+
+.g-sidebar {
+    width: 200px;
+
+    .m-upload {
+        cursor: pointer;
+        height: 50px;
+        width: 100%;
+        background-color: #fe8a23;
+        color: #fff;
+        line-height: 50px;
+        font-size: 18px;
+        &:before {
+            @include z-fl;
+            content: url(../img/buildresources/resourceupload.png);
+            padding: 4px 10px 0 46px;
+        }
+    }
+
+    .m-myresource {
+        padding-top: 15px;
+        li {
+            width: 198px;
+            height: 58px;
+            border: 1px solid #e4e4e4;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            font-size: 18px;
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+                border-radius: 4px;
+                line-height: 58px;
+                &:hover {
+                    color: #b31a1b;
+                }
+            }
+            .z-selected {
+                color: #b31a1b;
+            }
+        }
+
+        li:first-child {
+            width: 198px;
+            height: 58px;
+            border-radius: 5px;
+            background-color: #b31a1b;
+            color: #fff;
+            line-height: 60px;
+            &:before {
+                @include z-fl;
+                content: url(../img/buildresources/resources.png);
+                padding: 4px 10px 0 46px;
+            }
+        }
+        /*
+        li ~ li {
+            cursor: pointer;
+        }
+        */
+    }
+}
