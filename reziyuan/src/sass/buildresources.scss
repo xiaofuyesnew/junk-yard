@@ -41,6 +41,30 @@
                 &:hover {
                     color: #b31a1b;
                 }
+                &:before {
+                    @include z-fl;
+                    content: url(../img/buildresources/resourceupload.png);
+                    padding: 4px 10px 0 46px;
+                }
+                
+            }
+            .u-ul:before {
+                content: url(../img/buildresources/upload-s.png)
+            }
+            .u-ulr:before {
+                content: url(../img/buildresources/upload-sr.png)
+            }
+            .u-dl:before {
+                content: url(../img/buildresources/download-s.png)
+            }
+            .u-dlr:before {
+                content: url(../img/buildresources/download-sr.png)
+            }
+            .u-mf:before {
+                content: url(../img/buildresources/favor-s.png)
+            }
+            .u-mfr:before {
+                content: url(../img/buildresources/favor-sr.png)
             }
             .z-selected {
                 color: #b31a1b;
@@ -60,10 +84,17 @@
                 padding: 4px 10px 0 46px;
             }
         }
-        /*
+        
         li ~ li {
-            cursor: pointer;
+            position: relative;
+            div {
+                display: none;
+                width: 5px;
+                height: 58px;
+                border-radius: 5px 0 0 5px;
+                position: absolute;
+                background-color: #b31a1b;
+            }
         }
-        */
     }
 }
