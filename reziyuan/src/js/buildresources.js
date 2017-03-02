@@ -14,6 +14,4 @@ $(function () {
         $($('.m-myresource li~li')[2]).children('a').removeClass('u-mf').addClass('z-selected u-mfr')
         $($('.m-myresource li~li')[2]).children('div').show()
     }
-
-    console.log($($('.m-myresource li~li')[0]).children('a'))
 })
