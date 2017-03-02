@@ -1,5 +1,5 @@
 $(function () {
-    //根据URL所带的type参数改变导航样式
+    //根据URL所带的type参数改变页面样式
     var typeNum = window.location.search.substr(1)
     $($('.m-myresource li~li')[0]).children('a').addClass('u-ul')
     $($('.m-myresource li~li')[1]).children('a').addClass('u-dl')
