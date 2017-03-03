@@ -7,7 +7,6 @@
 
 .g-sidebar {
     width: 200px;
-
     .m-upload {
         cursor: pointer;
         height: 50px;
@@ -96,5 +95,46 @@
                 background-color: #b31a1b;
             }
         }
+    }
+}
+
+.g-content {
+    width: 780px;
+    .m-search {
+        * {
+            outline: none;
+        }
+        input {
+            @include z-fl;
+            display: block;
+            width: 360px;
+            height: 36px;
+            padding: 0 10px;
+        }
+        button {
+            @include z-fl;
+            display: block;
+            background: #b31a1b url(../img/buildresources/search.png) no-repeat 10px;
+            background-size: 20px;
+            width: 40px;
+            height: 40px;
+            border: none;
+            cursor: pointer;
+        }
+        .u-hotkey {
+            line-height: 40px;
+            span {
+                padding-left: 20px;
+                font-weight: bold;
+            }
+            a {
+                padding-right: 10px;
+            }
+        }
+    }
+    .m-type {
+        margin-top: 20px;
+        border: solid 1px #e4e4e4;
+        min-height: 10px;
     }
 }
