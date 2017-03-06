@@ -132,9 +132,56 @@
             }
         }
     }
+    @mixin z-selec {
+        color: #fff;
+        background-color: #b31a1b;
+    }
+    @mixin z-noselec {
+        color: #666;
+        background: none;
+    }
     .m-type {
         margin-top: 20px;
         border: solid 1px #e4e4e4;
-        min-height: 10px;
+        padding: 15px 20px;
+        .u-uwarp {
+            padding: 5px 0;
+            ul {
+                width: 590px;
+                @include z-fl;
+            }
+            ul li {
+                @include z-fl;
+                line-height: 25px;
+                padding: 0 15px;
+                margin: 0 5px 5px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .z-selec {
+                @include z-selec;
+            }
+        }
+        .u-ttitle {
+            line-height: 25px;
+        }
+        .u-all {
+            line-height: 25px;
+            margin: 0 10px;
+            color: #fff;
+            padding: 0 15px;
+            background-color: #b31a1b;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .z-noselec {
+            @include z-noselec;
+        }
+    }
+    .m-select {
+        width: 100%;
+        .u-cross {
+            
+        }
     }
 }

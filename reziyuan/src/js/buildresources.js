@@ -14,4 +14,14 @@ $(function () {
         $($('.m-myresource li~li')[2]).children('a').removeClass('u-mf').addClass('z-selected u-mfr')
         $($('.m-myresource li~li')[2]).children('div').show()
     }
+
+    //类型选择效果
+    $('.u-uwarp .u-all').click(function () {
+        $(this).removeClass('z-noselec')
+        $(this).next().children().removeClass('z-selec')
+    })
+    $('.u-uwarp ul li').click(function () {
+        $(this).addClass('z-selec')
+        $(this).parent().prev().addClass('z-noselec')
+    })
 })
