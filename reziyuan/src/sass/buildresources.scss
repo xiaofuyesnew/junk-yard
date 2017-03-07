@@ -180,8 +180,42 @@
     }
     .m-select {
         width: 100%;
-        .u-cross {
-            
+        ul li {
+            font-size: 12px;
+            line-height: 20px;
+            height: 20px;
+            @include z-fl;
+            border: 1px solid #e4e4e4;
+            padding: 0 25px 0 5px;
+            background: url(../img/buildresources/cross.png) no-repeat right;
+            margin: 0 10px 5px 0;
+            &:hover {
+                border: 1px solid #b31a1b;
+                cursor: pointer;
+                background: url(../img/buildresources/cross-r.png) no-repeat right;
+            }
+        }
+    }
+    .m-detail {
+        .u-unit {
+            padding: 35px 0 0 20px;
+            border-bottom: 1px solid #e4e4e4;
+            img {
+                @include z-fl;
+                width: 100px;
+                height: 100px;
+            }
+            .u-info {
+                @include z-fr;
+                width: 640px;
+                height: 100px;
+                //border: 1px solid #e4e4e4;
+            }
+            .u-icons {
+                @include z-fr;
+                width: 300px;
+                height: 20px;
+            }
         }
     }
 }
