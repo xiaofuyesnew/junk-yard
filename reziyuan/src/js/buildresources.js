@@ -121,4 +121,15 @@ $(function () {
             $($('.u-info p')[i]).show()
         }
     }
+
+    //收藏样式效果
+    $('.u-icons .favor').click(function () {
+        if ($(this).hasClass('f')) {
+            $(this).removeClass('f').addClass('c')
+            $(this).html('取消收藏')
+        } else {
+            $(this).removeClass('c').addClass('f')
+            $(this).html('收藏')
+        }
+    })
 })
