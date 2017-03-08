@@ -1,5 +1,5 @@
 $(function () {
-    //定义一个Map,用于记录分类位置
+    //定义Map,用于记录分类位置
     var types = new Map(),
         showTypes = new Map(),
         showNum_a = 0,
@@ -108,4 +108,17 @@ $(function () {
             }
         })
     })
+
+    //详情描述字数处理
+    for (var i = 0; i < $('.u-info p').length; i++) {
+        if ($($('.u-info p')[i]).html().length > 160) {
+            $($('.u-info p')[i]).html($($('.u-info p')[i]).html().substr(0, 160) + '...')
+            $($('.u-info p')[i]).show()
+        } else if (!$($('.u-info p')[i]).html().length) {
+            $($('.u-info p')[i]).html('暂无详情')
+            $($('.u-info p')[i]).show()
+        } else {
+            $($('.u-info p')[i]).show()
+        }
+    }
 })
