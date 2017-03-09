@@ -132,4 +132,36 @@ $(function () {
             $(this).html('收藏')
         }
     })
+
+    //分页按钮样式
+    var pages = $('.m-pages .u-num').length,
+        re = /\d+/
+    $('.m-pages .u-num').click(function () {
+        if (!$(this).hasClass('z-nums')) {
+            $('.m-pages .u-num').removeClass('z-nums')
+            $(this).addClass('z-nums')
+        }
+    })
+    $('.m-pages .u-next').click(function () {
+        if (parseInt($('.m-pages .z-nums').html()) < pages) {
+            $('.m-pages .z-nums').removeClass('z-nums').next('.u-num').addClass('z-nums')
+        }
+    })
+    $('.m-pages .u-prev').click(function () {
+        if (parseInt($('.m-pages .z-nums').html()) > 1) {
+            $('.m-pages .z-nums').removeClass('z-nums').prev('.u-num').addClass('z-nums')
+        }
+    })
+    $('.m-pages button').click(function () {
+        if (!$('.m-pages input').val()) {
+            alert('请输入页码...')
+        } else if (parseInt($('.m-pages input').val()) > pages) {
+            alert('输入超出范围...')
+        } else if (!re.test($('.m-pages input').val())){
+            alert('输入数字...')
+        } else {
+            $('.m-pages .u-num').removeClass('z-nums')
+            $($($('.m-pages .u-num')[parseInt($('.m-pages input').val()) - 1])).addClass('z-nums')
+        }
+    })
 })
