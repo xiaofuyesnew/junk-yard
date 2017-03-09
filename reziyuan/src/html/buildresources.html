@@ -42,6 +42,101 @@
         <div class="g-ma z-cf">
             <div class="g-sidebar z-fl">
                 <div class="m-upload">资源上传</div>
+                <div class="m-popup">
+                    <input type="text" placeholder="资源标题">
+                    <p>科目类别</p>
+                    <ul class="m-subtype">
+                        <li>
+                            <input id="st1" type="radio" name="subtype" value="1" checked>
+                            <label for="st1">马克思主义基本原理概论</label>
+                        </li>
+                        <li>
+                            <input id="st2" type="radio" name="subtype" value="2">
+                            <label for="st2">毛泽东思想和中国特色社会主义理论体系概论</label>
+                        </li>
+                        <li>
+                            <input id="st3" type="radio" name="subtype" value="3">
+                            <label for="st3">中国近代史纲要</label>
+                        </li>
+                        <li>
+                            <input id="st4" type="radio" name="subtype" value="4">
+                            <label for="st4">思想道德修养与法律基础</label>
+                        </li>
+                        <li>
+                            <input id="st5" type="radio" name="subtype" value="5">
+                            <label for="st5">形势与政策</label>
+                        </li>
+                    </ul>
+                    <p>资源类型</p>
+                    <ul class="m-rtype">
+                        <li>
+                            <input id="rt1" type="radio" name="rtype" value="1" checked>
+                            <label for="rt1">教学设计</label>
+                        </li>
+                        <li>
+                            <input id="rt2" type="radio" name="rtype" value="2">
+                            <label for="rt2">教学课件</label>
+                        </li>
+                        <li>
+                            <input id="rt3" type="radio" name="rtype" value="3">
+                            <label for="rt3">辅导资料</label>
+                        </li>
+                        <li>
+                            <input id="rt4" type="radio" name="rtype" value="4">
+                            <label for="rt4">优秀案例</label>
+                        </li>
+                        <li>
+                            <input id="rt5" type="radio" name="rtype" value="5">
+                            <label for="rt5">课堂评价</label>
+                        </li>
+                        <li>
+                            <input id="rt6" type="radio" name="rtype" value="6">
+                            <label for="rt6">拓展资源</label>
+                        </li>
+                        <li>
+                            <input id="rt7" type="radio" name="rtype" value="7">
+                            <label for="rt7">课程实录</label>
+                        </li>
+                        <li>
+                            <input id="rt8" type="radio" name="rtype" value="8">
+                            <label for="rt8">视频课程</label>
+                        </li>
+                        <li>
+                            <input id="rt9" type="radio" name="rtype" value="9">
+                            <label for="rt9">教学素材</label>
+                        </li>
+                        <li>
+                            <input id="rt10" type="radio" name="rtype" value="10">
+                            <label for="rt10">微课程</label>
+                        </li>
+                        <li>
+                            <input id="rt11" type="radio" name="rtype" value="11">
+                            <label for="rt11">文本</label>
+                        </li>
+                        <li>
+                            <input id="rt12" type="radio" name="rtype" value="12">
+                            <label for="rt12">视频</label>
+                        </li>
+                        <li>
+                            <input id="rt13" type="radio" name="rtype" value="13">
+                            <label for="rt13">其他</label>
+                        </li>
+                    </ul>
+                    <p>资源封面</p>
+                    <p>资源简介</p>
+                    <p>文件类型</p>
+                    <ul class="m-filetype">
+                        <li>
+                            <input id="ft1" type="radio" name="ftype" value="1" checked>
+                            <label for="ft1">文档</label>
+                        </li>
+                        <li>
+                            <input id="ft2" type="radio" name="ftype" value="2">
+                            <label for="ft2">视频</label>
+                        </li>
+                    </ul>
+                    <p>添加附件</p>
+                </div>
                 <ul class="m-myresource">
                     <li>我的资源</li>
                     <li><div></div><a href="?type=1">我的上传</a></li>
@@ -185,6 +280,7 @@
                 <p>Copyright 2014 - 2008 All right reserved&nbsp;&nbsp;&nbsp;&nbsp;鄂ICP备11019018号</p>
             </div>
         </div>
+        <div class="cm-mask"></div>
         <script src="js/common.js"></script>
         <script src="js/buildresources.js"></script>
     </body>

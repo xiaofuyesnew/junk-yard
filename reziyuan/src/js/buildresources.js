@@ -8,6 +8,18 @@ $(function () {
     for (var i = 0; i < 24; i++) {
         types.set($($('.u-uwarp ul li')[i]).html(), i)
     }
+
+    //上传弹窗
+    $('.m-upload').click(function () {
+        $('.cm-mask').show().animate({
+            opacity: "1"
+        }, 300)
+        $('.m-popup').show().animate({
+            left: "220px",
+            opacity: "1"
+        }, 300)
+    })
+
     //根据URL所带的type参数改变页面样式
     var typeNum = window.location.search.substr(1)
     $($('.m-myresource li~li')[0]).children('a').addClass('u-ul')
@@ -155,10 +167,10 @@ $(function () {
     $('.m-pages button').click(function () {
         if (!$('.m-pages input').val()) {
             alert('请输入页码...')
-        } else if (parseInt($('.m-pages input').val()) > pages) {
+        } else if (parseInt($('.m-pages input').val()) > pages || parseInt($('.m-pages input').val()) <= 0) {
             alert('输入超出范围...')
         } else if (!re.test($('.m-pages input').val())){
-            alert('输入数字...')
+            alert('请输入数字...')
         } else {
             $('.m-pages .u-num').removeClass('z-nums')
             $($($('.m-pages .u-num')[parseInt($('.m-pages input').val()) - 1])).addClass('z-nums')
