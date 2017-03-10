@@ -96,6 +96,13 @@
             color: #666;
             font-weight: bold;
         }
+        textarea {
+            outline: none;
+            resize: none;
+            width: 578px;
+            height: 100px;
+            padding: 10px;
+        }
     }
     .m-myresource {
         padding-top: 15px;
