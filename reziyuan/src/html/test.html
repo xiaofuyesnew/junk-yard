@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>效果测试页面</title>
+    <style rel="stylesheet">
+        .showimg {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #e4e4e4;
+            background: no-repeat;
+        }
+        .m-imgupload {
+            width: 101px;
+            height: 101px;
+            background: rgba(0, 0, 0, 0.2) url(img/buildresources/photo.png) no-repeat;
+            background-position: 26px;
+        }
+        .m-imgupload .u-showimg {
+            border: 1px solid #e4e4e4;
+            width: 100px;
+            height: 100px;
+            float: left;
+        }
+        .m-imgupload input {
+            display: block;
+            width: 100px;
+            height: 100px;
+            outline: none;
+            cursor: pointer;
+            opacity: 0;
+        }
+
+        .m-imgupload p {
+            float: left;
+            padding-left: 20px;
+        }
+        .m-imgupload .u-tips {
+            opacity: 0;
+            background: rgba(0, 0, 0, 0.2) url(img/buildresources/photo.png) no-repeat;
+            background-position: 25px;
+        }
+        .m-imgupload .u-tips:hover {
+            opacity: 1;
+        }
+    </style>
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+    <div class="showimg"></div>
+    <input class="imgupload" type="file">
+    <p class="info">没有选择文件</p>
+    <div class="m-imgupload">
+        <div class="u-showimg">
+            <div class="u-tips">
+                <input type="file" accept=".jpg, .gif, .png, .jpeg">
+            </div>
+        </div>
+        <p>点击方框上传图片...</p>
+    </div>
+    <script src="js/test.js"></script>
+</body>
+</html>

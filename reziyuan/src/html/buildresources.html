@@ -5,6 +5,7 @@
         <title>资源建设</title>
         <link rel="stylesheet" href="css/buildresources.css">
         <script src="js/jquery.min.js"></script>
+        <script src="js/upload.js"></script>
     </head>
     <body>
         <!--头部-->
@@ -123,6 +124,16 @@
                         </li>
                     </ul>
                     <p>资源封面</p>
+                    <div class="m-cover z-cf">
+                        <div class="u-showcover z-fl">
+                            <div class="u-photo">
+                                <div class="u-tips">
+                                    <input type="file" accept=".png, .jpg, .gif, .jpeg">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="z-fl">点击左侧方框上传资源封面...</p>
+                    </div>
                     <p>资源简介</p>
                     <textarea placeholder="资源简介"></textarea>
                     <p>文件类型</p>
@@ -137,6 +148,10 @@
                         </li>
                     </ul>
                     <p>添加附件</p>
+                    <div class="m-btns z-cf">
+                        <div class="u-btns z-fl">确定</div>
+                        <div class="u-btnc z-fr">取消</div>
+                    </div>
                 </div>
                 <ul class="m-myresource">
                     <li>我的资源</li>

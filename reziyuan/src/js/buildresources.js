@@ -11,13 +11,31 @@ $(function () {
 
     //上传弹窗
     $('.m-upload').click(function () {
-        $('.cm-mask').show().animate({
-            opacity: "1"
-        }, 300)
-        $('.m-popup').show().animate({
-            left: "220px",
-            opacity: "1"
-        }, 300)
+        $('.cm-mask').show(function () {
+            $(this).animate({
+                opacity: "1"
+            }, 300)
+        })
+        $('.m-popup').show(function () {
+            $(this).animate({
+                left: "220px",
+                opacity: "1"
+            }, 300)
+        })
+    })
+
+    $('.m-btns .u-btnc').click(function () {
+        $('.cm-mask').animate({
+            opacity: "0"
+        }, 300, function () {
+            $(this).hide()
+        })
+        $('.m-popup').animate({
+            left: "200px",
+            opacity: "0"
+        }, 300, function () {
+            $(this).hide()
+        })
     })
 
     //根据URL所带的type参数改变页面样式
@@ -176,4 +194,7 @@ $(function () {
             $($($('.m-pages .u-num')[parseInt($('.m-pages input').val()) - 1])).addClass('z-nums')
         }
     })
+
+    //使用上传的函数，资源封面上传从upload.js文件定义的函数
+    imguploader('.m-cover input', '.u-photo', '.m-cover p')
 })
