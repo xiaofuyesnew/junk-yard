@@ -26,6 +26,34 @@ $(function () {
             $(this).addClass('z-hover')
         }
         //内容切换
-        
+        if ($(this).html() === '全部') {
+            $('.m-all').show()
+            $('.m-new').hide()
+            $('.m-hot').hide()
+        } else if ($(this).html() === '最新') {
+            $('.m-all').hide()
+            $('.m-new').show()
+            $('.m-hot').hide()
+        } else if ($(this).html() === '最热') {
+            $('.m-all').hide()
+            $('.m-new').hide()
+            $('.m-hot').show()
+        }
     })
+
+    function listPut(element) {
+        if ($(element).length < 4) {
+            $(element).css({
+                marginRight: "15px"
+            })
+            $(element).parent().css({
+                justifyContent: "flex-start"
+            })
+
+        }
+    }
+
+    listPut('.m-all li')
+    listPut('.m-new li')
+    listPut('.m-hot li')
 })
