@@ -143,6 +143,38 @@
                 }
             }
         }
+        .m-attupload {
+            .u-text, .u-video {
+                position: relative;
+                input {
+                    position: absolute;
+                    display: block;
+                    width: 80px;
+                    height: 30px;
+                    opacity: 0;
+                    top: 0;
+                    left: 0;
+                }
+                .u-btn {
+                    width: 80px;
+                    height: 30px;
+                    background-color: #fe8a23;
+                    border-radius: 3px;
+                    color: #fff;
+                    font-size: 12px;
+                    text-align: center;
+                    line-height: 30px;
+                }
+                p {
+                    font-size: 14px;
+                    font-weight: normal;
+                    padding: 0 0 0 20px;
+                }
+            }
+            .u-video {
+                display: none;
+            }
+        }
         p {
             padding: 15px 0;
             font-size: 16px;

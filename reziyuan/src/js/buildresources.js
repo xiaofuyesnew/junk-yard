@@ -195,6 +195,24 @@ $(function () {
         }
     })
 
+
+    //资源类型切换
+    $('input[name="ftype"]').click(function () {
+        if ($(this).val() === "1") {
+            if ($('.u-text').css('display') === 'none') {
+                $('.u-text').show()
+                $('.u-video').hide()
+            }
+        } else if ($(this).val() === "2") {
+            if ($('.u-video').css('display') === 'none') {
+                $('.u-text').hide()
+                $('.u-video').show()
+            }
+        }
+    })
+
     //使用上传的函数，资源封面上传从upload.js文件定义的函数
     imguploader('.m-cover input', '.u-photo', '.m-cover p')
+    attuploader('.u-text input', '.u-text p', 'doc')
+    attuploader('.u-video input', '.u-video p', 'video')
 })

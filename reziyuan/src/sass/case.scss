@@ -1,0 +1,184 @@
+@import "reset";
+@import "common";
+
+.m-bbox {
+    margin: 0 auto;
+    .u-bbhd {
+        padding-top: 25px;
+        padding-right: 10px;
+        border-bottom: solid 1px #e7e3e4;
+        .u-title {
+            color: #333;
+            height: 30px;
+            font-size: 18px;
+            padding: 0 10px;
+            border-bottom: solid 2px #8c0000;
+        }
+    }
+    .m-list {
+        width: 350px;
+        padding-top: 30px;
+        .u-first {
+            img {
+                @include z-fl;
+                display: block;
+                width: 130px;
+                height: 80px;
+            }
+            .u-ftitle {
+                @include z-fr;
+                color: #333;
+                width: 205px;
+            }
+            .u-info {
+                @include z-fr;
+                width: 205px;
+                font-size: 12px;
+                color: #999;
+                padding-top: 15px;
+            }
+            a:hover {
+                color: #8c0000;
+            }
+        }
+        ul li {
+            @include z-fl;
+            padding-top: 10px;
+            &:first-child {
+                padding-top: 30px;
+            }
+            a {
+                @include z-fl;
+                width: 220px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                &:hover {
+                    color: #8c0000;
+                }
+            }
+            span {
+                font-size: 12px;
+                line-height: 20px;
+                @include z-fr;
+                display: block;
+                color: #999;
+                padding-left: 25px;
+            }
+        }
+    }
+}
+
+.m-rbar {
+    background-color: #f7f7f7;
+    border: 1px solid #d8d8d8;
+    .u-rtitle {
+        height: 20px;
+        padding: 10px 0;
+        .u-t {
+            @include z-fl;
+            height: 20px;
+            padding-left: 10px;
+            border-left: solid 3px #b31a1b;
+            font-weight: bold;
+        }
+        .u-rf {
+            @include z-fr;
+            line-height: 20px;
+            font-size: 12px;
+            background: url(../img/case/refresh.png) no-repeat 0 3px;
+            text-indent: 20px;
+            padding-right: 10px;
+            &:hover {
+                cursor: pointer;
+                color: #8c0000;
+                background: url(../img/case/refresh-r.png) no-repeat 0 3px;
+            }
+        }
+    }
+    ul li {
+        width: 200px;
+        margin: 0 auto;
+        border-top: 1px solid #d8d8d8;
+        padding: 10px 5px;
+        a {
+            display: block;
+            width: 200px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            &:hover {
+                color: #8c0000;
+            }
+        }
+        p {
+            font-size: 12px;
+            color: #999;
+            padding-top: 5px;
+        }
+    }
+}
+
+.g-left {
+    @include z-fl;
+    width: 750px;
+    padding-bottom: 30px;
+}
+
+.g-right {
+    @include z-fr;
+    width: 225px;
+    padding-top: 30px;
+}
+
+.z-txt {
+    &:before {
+        @include z-fl;
+        content: url(../img/case/txt.png);
+        padding-right: 5px;
+    }
+}
+
+.z-pdf {
+    &:before {
+        @include z-fl;
+        content: url(../img/case/pdf.png);
+        padding-right: 5px;
+    }
+}
+
+.z-word {
+    &:before {
+        @include z-fl;
+        content: url(../img/case/word.png);
+        padding-right: 5px;
+    }
+}
+
+.z-excel {
+    &:before {
+        @include z-fl;
+        content: url(../img/case/excel.png);
+        padding-right: 5px;
+    }
+}
+
+.z-ppt {
+    &:before {
+        @include z-fl;
+        content: url(../img/case/ppt.png);
+        padding-right: 5px;
+    }
+}
+
+.z-video {
+    &:before {
+        @include z-fl;
+        content: url(../img/case/video.png);
+        padding-right: 5px;
+    }
+}
+
+.z-margin {
+    margin-bottom: 10px;
+}

@@ -34,7 +34,7 @@ function imguploader(imgupload, showimg, info) {
     })
 }
 
-function attuploader(attupload, info) {
+function attuploader(attupload, info, rtype) {
     $(attupload).change(function () {
         if (!$(this).val()) {
             $(info).html('没有选择文件...')
@@ -47,12 +47,24 @@ function attuploader(attupload, info) {
             '文件名称: ' + file.name + '<br>' +
             '文件大小: ' + size + 'kb'
         )
-        if (file.type !== 'image/jpeg' &&
-            file.type !== 'image/png' &&
-            file.type !== 'image/gif' &&
-            file.type !== 'image/jpg') {
-            $(info).html('不是有效的图片文件...')
-            return
+        if (rtype === 'video') {
+            if (file.type !== 'video/mp4') {
+                $(info).html('不是有效的资源文件...')
+                return
+            }
+        } else if (rtype === 'doc') {
+            if (file.type !== 'text/plain' &&
+                file.type !== 'application/pdf' &&
+                file.type !== 'application/msword' &&
+                file.type !== 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' &&
+                file.type !== 'application/vnd.ms-excel' &&
+                file.type !== 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' &&
+                file.type !== 'application/vnd.ms-powerpoint' &&
+                file.type !== 'application/vnd.openxmlformats-officedocument.presentationml.presentation') {
+                $(info).html('不是有效的资源文件...')
+                return
+            }
         }
+        
     })
 }
