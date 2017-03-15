@@ -42,14 +42,21 @@ $(function () {
     })
 
     function listPut(element) {
-        if ($(element).length < 4) {
-            $(element).css({
-                marginRight: "15px"
-            })
+        if ($(element).length % 4 !== 0) {
             $(element).parent().css({
                 justifyContent: "flex-start"
             })
-
+            for (var i = 0; i < $(element).length; i++) {
+                if ((i + 1) % 4 !== 0) {
+                    $($(element)[i]).css({
+                        marginRight: "17px"
+                    })
+                } else {
+                    $($(element)[i]).css({
+                        marginRight: "0"
+                    })
+                }
+            }
         }
     }
 
