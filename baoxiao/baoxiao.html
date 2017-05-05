@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>报销文本生成程序</title>
+    <style>
+        .main {
+            width: 500px;
+            float: left;
+        }
+        .editor {
+            width: 500px;
+            float: right;
+        }
+        .meta, .buttons, .unit {
+            padding-bottom: 20px;
+        }
+        .unit {
+            border: 2px solid #333;
+            padding: 10px;
+        }
+        .unit input {
+             width: 95%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main"></div>
+    <div class="editor">
+        <div class="meta">
+            <label for="name">姓名</label>
+            <input type="text" placeholder="姓名，必须">
+        </div>
+        <div class="buttons">
+            <button>加一条</button>
+            <button>减一条</button>
+            <button>生成文本</button>
+        </div>
+        <div class="unit">
+            <span>日期</span>
+            <input type="text" name="date" placeholder="填写格式‘月/日’，必须">
+            <span>时间</span>
+            <input type="text" name="date" placeholder="填写格式‘xx:xx’，不填为白天加班">
+            <span>项目</span>
+            <input type="text" name="project" placeholder="填写格式‘XXX项目’，必须">
+        </div>
+    </div>
+
+    <script>
+        window.onload=function () {
+
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,323 @@
+<div style="height:790px;padding-bottom:10px;background:#f5f5f5 url(//img.alicdn.com/imgextra/i1/1782607856/TB2e2UpnwxlpuFjSszbXXcSVpXa_!!1782607856.png) no-repeat left top;">
+        <div class="J_TWidget" data-widget-type="Tabs" data-widget-config="{'effect':'fade','autoplay':false,'activeTriggerCls':'hidden'}">
+            <div class="sn-simple-logo" style="width:990px;height:77px;left:auto;top:auto;padding:0;border:none;background:none;display:block;">
+                <div class="sn-simple-logo" style="z-index:99;width:990px;height:61px;padding:0 0 0 186px;border:none;left:auto;top:auto;background:none;margin-top:16px;">
+                    <ul class="ks-switchable-nav" style="display:block;height:61px;width:804px;font-family:microsoft yahei;">
+                        <li class="ks-active hidden" style="display:block;float:left;width:161px;height:61px;outline:none;"><div style="width:160px;height:53px;border-right:1px solid #fff;font-size:16px;text-align:center;line-height:53px;color:#fff;background-color:#232f3d;">初级会计资格</div><div style="width:100%;height:8px;background-color:#f5f5f5;"></div></li>
+                        <li style="display:block;float:left;width:161px;height:61px;outline:none;"><div style="width:160px;height:53px;border-right:1px solid #fff;font-size:16px;text-align:center;line-height:53px;color:#fff;background-color:#232f3d;">注册会计师</div><div style="width:100%;height:8px;background-color:#f5f5f5;"></div></li>
+                        <li style="display:block;float:left;width:161px;height:61px;outline:none;"><div style="width:160px;height:53px;border-right:1px solid #fff;font-size:16px;text-align:center;line-height:53px;color:#fff;background-color:#232f3d;">中级会计资格</div><div style="width:100%;height:8px;background-color:#f5f5f5;"></div></li>
+                        <li style="display:block;float:left;width:161px;height:61px;outline:none;"><div style="width:160px;height:53px;border-right:1px solid #fff;font-size:16px;text-align:center;line-height:53px;color:#fff;background-color:#232f3d;">高级会计资格</div><div style="width:100%;height:8px;background-color:#f5f5f5;"></div></li>
+                        <li style="display:block;float:left;width:160px;height:61px;outline:none;"><div style="width:160px;height:53px;border-right:1px solid #fff;font-size:16px;text-align:center;line-height:53px;color:#fff;background-color:#232f3d;">技能大赛</div><div style="width:100%;height:8px;background-color:#f5f5f5;"></div></li>
+                    </ul>
+	            </div>
+	            <div class="sn-simple-logo" style="z-index:98;width:990px;height:61px;padding:0 0 0 186px;border:none;left:auto;top:auto;background:none;margin-top:16px;">
+		            <ul class="sn-simple-logo" style="height:61px;width:804px;top:auto;left:auto;font-family:microsoft yahei;z-index:0;">
+                        <li style="float:left;width:160px;height:100%;border-right:1px solid #fff;font-size:16px;text-align:center;line-height:53px;color:#fff;background:#f5f5f5 url(//img.alicdn.com/imgextra/i4/1782607856/TB2wvXaqAqvpuFjSZFhXXaOgXXa_!!1782607856.png) no-repeat;">初级会计资格</li>
+                        <li style="float:left;width:160px;height:100%;border-right:1px solid #fff;font-size:16px;text-align:center;line-height:53px;color:#fff;background:#f5f5f5 url(//img.alicdn.com/imgextra/i4/1782607856/TB2wvXaqAqvpuFjSZFhXXaOgXXa_!!1782607856.png) no-repeat">注册会计师</li>
+                        <li style="float:left;width:160px;height:100%;border-right:1px solid #fff;font-size:16px;text-align:center;line-height:53px;color:#fff;background:#f5f5f5 url(//img.alicdn.com/imgextra/i4/1782607856/TB2wvXaqAqvpuFjSZFhXXaOgXXa_!!1782607856.png) no-repeat">中级会计资格</li>
+                        <li style="float:left;width:160px;height:100%;border-right:1px solid #fff;font-size:16px;text-align:center;line-height:53px;color:#fff;background:#f5f5f5 url(//img.alicdn.com/imgextra/i4/1782607856/TB2wvXaqAqvpuFjSZFhXXaOgXXa_!!1782607856.png) no-repeat">高级会计资格</li>
+                        <li style="float:left;width:160px;height:100%;font-size:16px;text-align:center;line-height:53px;color:#fff;background:#f5f5f5 url(//img.alicdn.com/imgextra/i4/1782607856/TB2wvXaqAqvpuFjSZFhXXaOgXXa_!!1782607856.png) no-repeat">技能大赛</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ks-switchable-content" style="margin-top:85px;float:left;width:990px;border-top:2px solid #de2626;">
+                <div style="background-color:#fff;width:990px;">
+                    <div class="J_TWidget" data-widget-type="Tabs" data-widget-config="{'effect':'fade','autoplay':false,'activeTriggerCls':'hidden'}">
+                        <div class="sn-simple-logo" style="width:990px;height:40px;left:auto;top:auto;padding:0;border:none;background:none;display:block;">
+                            <div class="sn-simple-logo" style="z-index:99;width:990px;height:40px;padding:0;border:none;left:auto;top:auto;background:none;">
+                                <ul class="ks-switchable-nav" style="font-family:microsoft yahei;">
+                                    <li class="ks-active hidden" style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">官方教材</li>
+                                    <li  style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">精讲精练</li>
+                                    <li style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">通关题库</li>
+                                    <li style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">全真模拟题</li>
+                                    <li style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">学习组合</li>
+                                </ul>
+	                        </div>
+	                        <div class="sn-simple-logo" style="z-index:98;width:990px;height:40px;padding:0;border:none;left:auto;top:auto;background:none;">
+		                        <ul style="font-family:microsoft yahei;">
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">官方教材</li>
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">精讲精练</li>
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">通关题库</li>
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">全真模拟题</li>
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">学习组合</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ks-switchable-content" style="width:990px;">
+                            <div style="background-color:#fff;width:990px;margin-top:40px;padding-bottom:20px;">
+                                <ul>
+                                    <li style="height:275px;width:142px;float:left;padding:40px 28px 0;">
+                                        <a href="#" style="width:142px;height:186px;display:block;margin:0 auto;">
+                                            <img src="//img.alicdn.com/imgextra/i2/1782607856/TB2wFSznM0kpuFjSspdXXX4YXXa_!!1782607856.png">
+                                        </a>
+                                        <a href="#" style="font-family:microsoft yahei;font-size:14px;display:block;margin:20px auto 0;text-align:center;color:#333;">为地产投资分析</a>
+                                        <p style="margin:15px auto 0;text-align:center;color:#333;"><span style="font-family:impact;font-size:14px;">￥</span><span style="font-family:impact;font-size:22px;">50</span><span style="font-family:impact;font-size:14px;">.00</span></p>
+                                    </li>
+                                    <li style="height:275px;width:142px;float:left;padding:40px 28px 0;">
+                                        <a href="#" style="width:142px;height:186px;display:block;margin:0 auto;">
+                                            <img src="//img.alicdn.com/imgextra/i2/1782607856/TB2wFSznM0kpuFjSspdXXX4YXXa_!!1782607856.png">
+                                        </a>
+                                        <a href="#" style="font-family:microsoft yahei;font-size:14px;display:block;margin:20px auto 0;text-align:center;color:#333;">为地产投资分析</a>
+                                        <p style="margin:15px auto 0;text-align:center;color:#333;"><span style="font-family:impact;font-size:14px;">￥</span><span style="font-family:impact;font-size:22px;">50</span><span style="font-family:impact;font-size:14px;">.00</span></p>
+                                    </li>
+                                    <li style="height:275px;width:142px;float:left;padding:40px 28px 0;">
+                                        <a href="#" style="width:142px;height:186px;display:block;margin:0 auto;">
+                                            <img src="//img.alicdn.com/imgextra/i2/1782607856/TB2wFSznM0kpuFjSspdXXX4YXXa_!!1782607856.png">
+                                        </a>
+                                        <a href="#" style="font-family:microsoft yahei;font-size:14px;display:block;margin:20px auto 0;text-align:center;color:#333;">为地产投资分析</a>
+                                        <p style="margin:15px auto 0;text-align:center;color:#333;"><span style="font-family:impact;font-size:14px;">￥</span><span style="font-family:impact;font-size:22px;">50</span><span style="font-family:impact;font-size:14px;">.00</span></p>
+                                    </li>
+                                    <li style="height:275px;width:142px;float:left;padding:40px 28px 0;">
+                                        <a href="#" style="width:142px;height:186px;display:block;margin:0 auto;">
+                                            <img src="//img.alicdn.com/imgextra/i2/1782607856/TB2wFSznM0kpuFjSspdXXX4YXXa_!!1782607856.png">
+                                        </a>
+                                        <a href="#" style="font-family:microsoft yahei;font-size:14px;display:block;margin:20px auto 0;text-align:center;color:#333;">为地产投资分析</a>
+                                        <p style="margin:15px auto 0;text-align:center;color:#333;"><span style="font-family:impact;font-size:14px;">￥</span><span style="font-family:impact;font-size:22px;">50</span><span style="font-family:impact;font-size:14px;">.00</span></p>
+                                    </li>
+                                    <li style="height:275px;width:142px;float:left;padding:40px 28px 0;">
+                                        <a href="#" style="width:142px;height:186px;display:block;margin:0 auto;">
+                                            <img src="//img.alicdn.com/imgextra/i2/1782607856/TB2wFSznM0kpuFjSspdXXX4YXXa_!!1782607856.png">
+                                        </a>
+                                        <a href="#" style="font-family:microsoft yahei;font-size:14px;display:block;margin:20px auto 0;text-align:center;color:#333;">为地产投资分析</a>
+                                        <p style="margin:15px auto 0;text-align:center;color:#333;"><span style="font-family:impact;font-size:14px;">￥</span><span style="font-family:impact;font-size:22px;">50</span><span style="font-family:impact;font-size:14px;">.00</span></p>
+                                    </li>
+                                    <li style="height:275px;width:142px;float:left;padding:40px 28px 0;">
+                                        <a href="#" style="width:142px;height:186px;display:block;margin:0 auto;">
+                                            <img src="//img.alicdn.com/imgextra/i2/1782607856/TB2wFSznM0kpuFjSspdXXX4YXXa_!!1782607856.png">
+                                        </a>
+                                        <a href="#" style="font-family:microsoft yahei;font-size:14px;display:block;margin:20px auto 0;text-align:center;color:#333;">为地产投资分析</a>
+                                        <p style="margin:15px auto 0;text-align:center;color:#333;"><span style="font-family:impact;font-size:14px;">￥</span><span style="font-family:impact;font-size:22px;">50</span><span style="font-family:impact;font-size:14px;">.00</span></p>
+                                    </li>
+                                    <li style="height:275px;width:142px;float:left;padding:40px 28px 0;">
+                                        <a href="#" style="width:142px;height:186px;display:block;margin:0 auto;">
+                                            <img src="//img.alicdn.com/imgextra/i2/1782607856/TB2wFSznM0kpuFjSspdXXX4YXXa_!!1782607856.png">
+                                        </a>
+                                        <a href="#" style="font-family:microsoft yahei;font-size:14px;display:block;margin:20px auto 0;text-align:center;color:#333;">为地产投资分析</a>
+                                        <p style="margin:15px auto 0;text-align:center;color:#333;"><span style="font-family:impact;font-size:14px;">￥</span><span style="font-family:impact;font-size:22px;">50</span><span style="font-family:impact;font-size:14px;">.00</span></p>
+                                    </li>
+                                    <li style="height:275px;width:142px;float:left;padding:40px 28px 0;">
+                                        <a href="#" style="width:142px;height:186px;display:block;margin:0 auto;">
+                                            <img src="//img.alicdn.com/imgextra/i2/1782607856/TB2wFSznM0kpuFjSspdXXX4YXXa_!!1782607856.png">
+                                        </a>
+                                        <a href="#" style="font-family:microsoft yahei;font-size:14px;display:block;margin:20px auto 0;text-align:center;color:#333;">为地产投资分析</a>
+                                        <p style="margin:15px auto 0;text-align:center;color:#333;"><span style="font-family:impact;font-size:14px;">￥</span><span style="font-family:impact;font-size:22px;">50</span><span style="font-family:impact;font-size:14px;">.00</span></p>
+                                    </li>
+                                    <li style="height:275px;width:142px;float:left;padding:40px 28px 0;">
+                                        <a href="#" style="width:142px;height:186px;display:block;margin:0 auto;">
+                                            <img src="//img.alicdn.com/imgextra/i2/1782607856/TB2wFSznM0kpuFjSspdXXX4YXXa_!!1782607856.png">
+                                        </a>
+                                        <a href="#" style="font-family:microsoft yahei;font-size:14px;display:block;margin:20px auto 0;text-align:center;color:#333;">为地产投资分析</a>
+                                        <p style="margin:15px auto 0;text-align:center;color:#333;"><span style="font-family:impact;font-size:14px;">￥</span><span style="font-family:impact;font-size:22px;">50</span><span style="font-family:impact;font-size:14px;">.00</span></p>
+                                    </li>
+                                    <li style="height:275px;width:142px;float:left;padding:40px 28px 0;">
+                                        <a href="#" style="width:108px;height:108px;display:block;margin:45px auto 0;">
+                                            <img src="//img.alicdn.com/imgextra/i4/1782607856/TB2NgAQnq8lpuFjy0FpXXaGrpXa_!!1782607856.png">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+<div style="display:none;background-color:#fff;width:990px;margin-top:40px;padding-bottom:20px;">
+                                <ul>
+                                    <li style="height:275px;width:142px;float:left;padding:40px 28px 0;">
+                                        <a href="#" style="width:142px;height:186px;display:block;margin:0 auto;">
+                                            <img src="//img.alicdn.com/imgextra/i2/1782607856/TB2wFSznM0kpuFjSspdXXX4YXXa_!!1782607856.png">
+                                        </a>
+                                        <a href="#" style="font-family:microsoft yahei;font-size:14px;display:block;margin:20px auto 0;text-align:center;color:#333;">为地产投资分析</a>
+                                        <p style="margin:15px auto 0;text-align:center;color:#333;"><span style="font-family:impact;font-size:14px;">￥</span><span style="font-family:impact;font-size:22px;">50</span><span style="font-family:impact;font-size:14px;">.00</span></p>
+                                    </li>
+                                    <li style="height:275px;width:142px;float:left;padding:40px 28px 0;">
+                                        <a href="#" style="width:142px;height:186px;display:block;margin:0 auto;">
+                                            <img src="//img.alicdn.com/imgextra/i2/1782607856/TB2wFSznM0kpuFjSspdXXX4YXXa_!!1782607856.png">
+                                        </a>
+                                        <a href="#" style="font-family:microsoft yahei;font-size:14px;display:block;margin:20px auto 0;text-align:center;color:#333;">为地产投资分析</a>
+                                        <p style="margin:15px auto 0;text-align:center;color:#333;"><span style="font-family:impact;font-size:14px;">￥</span><span style="font-family:impact;font-size:22px;">50</span><span style="font-family:impact;font-size:14px;">.00</span></p>
+                                    </li>
+                                    <li style="height:275px;width:142px;float:left;padding:40px 28px 0;">
+                                        <a href="#" style="width:142px;height:186px;display:block;margin:0 auto;">
+                                            <img src="//img.alicdn.com/imgextra/i2/1782607856/TB2wFSznM0kpuFjSspdXXX4YXXa_!!1782607856.png">
+                                        </a>
+                                        <a href="#" style="font-family:microsoft yahei;font-size:14px;display:block;margin:20px auto 0;text-align:center;color:#333;">为地产投资分析</a>
+                                        <p style="margin:15px auto 0;text-align:center;color:#333;"><span style="font-family:impact;font-size:14px;">￥</span><span style="font-family:impact;font-size:22px;">50</span><span style="font-family:impact;font-size:14px;">.00</span></p>
+                                    </li>
+                                    <li style="height:275px;width:142px;float:left;padding:40px 28px 0;">
+                                        <a href="#" style="width:142px;height:186px;display:block;margin:0 auto;">
+                                            <img src="//img.alicdn.com/imgextra/i2/1782607856/TB2wFSznM0kpuFjSspdXXX4YXXa_!!1782607856.png">
+                                        </a>
+                                        <a href="#" style="font-family:microsoft yahei;font-size:14px;display:block;margin:20px auto 0;text-align:center;color:#333;">为地产投资分析</a>
+                                        <p style="margin:15px auto 0;text-align:center;color:#333;"><span style="font-family:impact;font-size:14px;">￥</span><span style="font-family:impact;font-size:22px;">50</span><span style="font-family:impact;font-size:14px;">.00</span></p>
+                                    </li>
+                                    <li style="height:275px;width:142px;float:left;padding:40px 28px 0;">
+                                        <a href="#" style="width:142px;height:186px;display:block;margin:0 auto;">
+                                            <img src="//img.alicdn.com/imgextra/i2/1782607856/TB2wFSznM0kpuFjSspdXXX4YXXa_!!1782607856.png">
+                                        </a>
+                                        <a href="#" style="font-family:microsoft yahei;font-size:14px;display:block;margin:20px auto 0;text-align:center;color:#333;">为地产投资分析</a>
+                                        <p style="margin:15px auto 0;text-align:center;color:#333;"><span style="font-family:impact;font-size:14px;">￥</span><span style="font-family:impact;font-size:22px;">50</span><span style="font-family:impact;font-size:14px;">.00</span></p>
+                                    </li>
+                                    <li style="height:275px;width:142px;float:left;padding:40px 28px 0;">
+                                        <a href="#" style="width:142px;height:186px;display:block;margin:0 auto;">
+                                            <img src="//img.alicdn.com/imgextra/i2/1782607856/TB2wFSznM0kpuFjSspdXXX4YXXa_!!1782607856.png">
+                                        </a>
+                                        <a href="#" style="font-family:microsoft yahei;font-size:14px;display:block;margin:20px auto 0;text-align:center;color:#333;">为地产投资分析</a>
+                                        <p style="margin:15px auto 0;text-align:center;color:#333;"><span style="font-family:impact;font-size:14px;">￥</span><span style="font-family:impact;font-size:22px;">50</span><span style="font-family:impact;font-size:14px;">.00</span></p>
+                                    </li>
+                                    <li style="height:275px;width:142px;float:left;padding:40px 28px 0;">
+                                        <a href="#" style="width:142px;height:186px;display:block;margin:0 auto;">
+                                            <img src="//img.alicdn.com/imgextra/i2/1782607856/TB2wFSznM0kpuFjSspdXXX4YXXa_!!1782607856.png">
+                                        </a>
+                                        <a href="#" style="font-family:microsoft yahei;font-size:14px;display:block;margin:20px auto 0;text-align:center;color:#333;">为地产投资分析</a>
+                                        <p style="margin:15px auto 0;text-align:center;color:#333;"><span style="font-family:impact;font-size:14px;">￥</span><span style="font-family:impact;font-size:22px;">50</span><span style="font-family:impact;font-size:14px;">.00</span></p>
+                                    </li>
+                                    <li style="height:275px;width:142px;float:left;padding:40px 28px 0;">
+                                        <a href="#" style="width:142px;height:186px;display:block;margin:0 auto;">
+                                            <img src="//img.alicdn.com/imgextra/i2/1782607856/TB2wFSznM0kpuFjSspdXXX4YXXa_!!1782607856.png">
+                                        </a>
+                                        <a href="#" style="font-family:microsoft yahei;font-size:14px;display:block;margin:20px auto 0;text-align:center;color:#333;">为地产投资分析</a>
+                                        <p style="margin:15px auto 0;text-align:center;color:#333;"><span style="font-family:impact;font-size:14px;">￥</span><span style="font-family:impact;font-size:22px;">50</span><span style="font-family:impact;font-size:14px;">.00</span></p>
+                                    </li>
+                                    <li style="height:275px;width:142px;float:left;padding:40px 28px 0;">
+                                        <a href="#" style="width:142px;height:186px;display:block;margin:0 auto;">
+                                            <img src="//img.alicdn.com/imgextra/i2/1782607856/TB2wFSznM0kpuFjSspdXXX4YXXa_!!1782607856.png">
+                                        </a>
+                                        <a href="#" style="font-family:microsoft yahei;font-size:14px;display:block;margin:20px auto 0;text-align:center;color:#333;">为地产投资分析</a>
+                                        <p style="margin:15px auto 0;text-align:center;color:#333;"><span style="font-family:impact;font-size:14px;">￥</span><span style="font-family:impact;font-size:22px;">50</span><span style="font-family:impact;font-size:14px;">.00</span></p>
+                                    </li>
+                                    <li style="height:275px;width:142px;float:left;padding:40px 28px 0;">
+                                        <a href="#" style="width:108px;height:108px;display:block;margin:45px auto 0;">
+                                            <img src="//img.alicdn.com/imgextra/i4/1782607856/TB2NgAQnq8lpuFjy0FpXXaGrpXa_!!1782607856.png">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div style="display:none;">a13</div>
+                            <div style="display:none;">a14</div>
+                            <div style="display:none;">a15</div>
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color:#fff;width:990px;">
+                    <div class="J_TWidget" data-widget-type="Tabs" data-widget-config="{'effect':'fade','autoplay':false,'activeTriggerCls':'hidden'}">
+                        <div class="sn-simple-logo" style="width:990px;height:40px;left:auto;top:auto;padding:0;border:none;background:none;display:block;">
+                            <div class="sn-simple-logo" style="z-index:99;width:990px;height:40px;padding:0;border:none;left:auto;top:auto;background:none;">
+                                <ul class="ks-switchable-nav" style="font-family:microsoft yahei;">
+                                    <li class="ks-active hidden" style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">官方教材</li>
+                                    <li  style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">精讲精练</li>
+                                    <li style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">通关题库</li>
+                                    <li style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">全真模拟题</li>
+                                    <li style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">学习组合</li>
+                                </ul>
+	                        </div>
+	                        <div class="sn-simple-logo" style="z-index:98;width:990px;height:40px;padding:0;border:none;left:auto;top:auto;background:none;">
+		                        <ul style="font-family:microsoft yahei;">
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">官方教材</li>
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">精讲精练</li>
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">通关题库</li>
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">全真模拟题</li>
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">学习组合</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ks-switchable-content" style="width:990px;">
+                            <div>a21</div>
+                            <div style="display:none;">a22</div>
+                            <div style="display:none;">a23</div>
+                            <div style="display:none;">a24</div>
+                            <div style="display:none;">a25</div>
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color:#fff;width:990px;">
+                    <div class="J_TWidget" data-widget-type="Tabs" data-widget-config="{'effect':'fade','autoplay':false,'activeTriggerCls':'hidden'}">
+                        <div class="sn-simple-logo" style="width:990px;height:40px;left:auto;top:auto;padding:0;border:none;background:none;display:block;">
+                            <div class="sn-simple-logo" style="z-index:99;width:990px;height:40px;padding:0;border:none;left:auto;top:auto;background:none;">
+                                <ul class="ks-switchable-nav" style="font-family:microsoft yahei;">
+                                    <li class="ks-active hidden" style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">官方教材</li>
+                                    <li  style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">精讲精练</li>
+                                    <li style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">通关题库</li>
+                                    <li style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">全真模拟题</li>
+                                    <li style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">学习组合</li>
+                                </ul>
+	                        </div>
+	                        <div class="sn-simple-logo" style="z-index:98;width:990px;height:40px;padding:0;border:none;left:auto;top:auto;background:none;">
+		                        <ul style="font-family:microsoft yahei;">
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">官方教材</li>
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">精讲精练</li>
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">通关题库</li>
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">全真模拟题</li>
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">学习组合</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ks-switchable-content" style="width:990px;">
+                            <div>a31</div>
+                            <div style="display:none;">a32</div>
+                            <div style="display:none;">a33</div>
+                            <div style="display:none;">a34</div>
+                            <div style="display:none;">a35</div>
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color:#fff;width:990px;">
+                    <div class="J_TWidget" data-widget-type="Tabs" data-widget-config="{'effect':'fade','autoplay':false,'activeTriggerCls':'hidden'}">
+                        <div class="sn-simple-logo" style="width:990px;height:40px;left:auto;top:auto;padding:0;border:none;background:none;display:block;">
+                            <div class="sn-simple-logo" style="z-index:99;width:990px;height:40px;padding:0;border:none;left:auto;top:auto;background:none;">
+                                <ul class="ks-switchable-nav" style="font-family:microsoft yahei;">
+                                    <li class="ks-active hidden" style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">官方教材</li>
+                                    <li  style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">精讲精练</li>
+                                    <li style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">通关题库</li>
+                                    <li style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">全真模拟题</li>
+                                    <li style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">学习组合</li>
+                                </ul>
+	                        </div>
+	                        <div class="sn-simple-logo" style="z-index:98;width:990px;height:40px;padding:0;border:none;left:auto;top:auto;background:none;">
+		                        <ul style="font-family:microsoft yahei;">
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">官方教材</li>
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">精讲精练</li>
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">通关题库</li>
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">全真模拟题</li>
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">学习组合</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ks-switchable-content" style="width:990px;">
+                            <div>a41</div>
+                            <div style="display:none;">a42</div>
+                            <div style="display:none;">a43</div>
+                            <div style="display:none;">a44</div>
+                            <div style="display:none;">a45</div>
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color:#fff;width:990px;">
+                    <div class="J_TWidget" data-widget-type="Tabs" data-widget-config="{'effect':'fade','autoplay':false,'activeTriggerCls':'hidden'}">
+                        <div class="sn-simple-logo" style="width:990px;height:40px;left:auto;top:auto;padding:0;border:none;background:none;display:block;">
+                            <div class="sn-simple-logo" style="z-index:99;width:990px;height:40px;padding:0;border:none;left:auto;top:auto;background:none;">
+                                <ul class="ks-switchable-nav" style="font-family:microsoft yahei;">
+                                    <li class="ks-active hidden" style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">官方教材</li>
+                                    <li  style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">精讲精练</li>
+                                    <li style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">通关题库</li>
+                                    <li style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">全真模拟题</li>
+                                    <li style="display:block;float:left;width:197px;height:39px;outline:none;border-left:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;line-height:39px;color:#333;font-size:14px;text-align:center;background-color:#f5f5f5;">学习组合</li>
+                                </ul>
+	                        </div>
+	                        <div class="sn-simple-logo" style="z-index:98;width:990px;height:40px;padding:0;border:none;left:auto;top:auto;background:none;">
+		                        <ul style="font-family:microsoft yahei;">
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">官方教材</li>
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">精讲精练</li>
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">通关题库</li>
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">全真模拟题</li>
+                                    <li style="display:block;float:left;width:197px;height:40px;line-height:39px;color:#de2626;font-size:14px;text-align:center;background-color:#fff;border-left:1px solid #e4e4e4;">学习组合</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ks-switchable-content" style="width:990px;">
+                            <div>a41</div>
+                            <div style="display:none;">a42</div>
+                            <div style="display:none;">a43</div>
+                            <div style="display:none;">a44</div>
+                            <div style="display:none;">a45</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
